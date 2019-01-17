@@ -1,5 +1,5 @@
 node default {
 }
-note 'master.puppet.vm' {
+note 'vbox-ubuntu.lan' {
   include role::master_server
 }
