@@ -1,5 +1,5 @@
 node default {
-}
-node 'puppet.bme.ucdavis.edu' {
-  include role::master_server
+  file {'/root/README':
+    ensure => file,
+  }
 }
